@@ -34,7 +34,7 @@ CREATE TABLE `pagedata` (
 --
 
 INSERT INTO `pagedata` (`id`, `title`, `page`, `text1`, `text2`) VALUES
-(1, 'Home Page', 'home', 'Estoy loco como el coco y como coco. Welcome to Pegasus', 'Academic System from unipinuto ;)\r\n\r\nIt is good coding in PHP versions of Lorem Ipsum.'),
+(1, 'Home Page', 'home', 'Hello and Welcome to my page', 'Academic System from ;)\r\n\r\nIt is good coding in PHP.'),
 (2, 'About Page', 'about', 'Check Out My activities!!!', 'What the f..k!!!\r\n\r\nLorem Ipsum is simply dummy text  '),
 (3, 'Product page', 'product', 'See your favourite product here.', 'Lorem Ipsum.'),
 (4, 'Login Page', 'login', 'login your information here.', 'login your information here'),
@@ -58,7 +58,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `email`, `password`) VALUES
-(1, 'uniminuto@gmail.com', '5f4dcc3b5aa765d61d8327deb882cf99');
+(1, 'user@gmail.com', '5f4dcc3b5aa765d61d8327deb882cf99');
 
 --
 -- Indexes for dumped tables
